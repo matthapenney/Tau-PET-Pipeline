@@ -10,8 +10,8 @@ utils_setup_config() {
 	readarray SUBJECT < ${subjectlist}
 	readarray reference < ${referencereg}
 	readarray regionsofinterest < ${regionsofinterest}
-    readarray FScerebellum < ${FScerebellum}
-    readarray weightedroi < ${weightedroi}
+    	readarray FScerebellum < ${FScerebellum}
+    	readarray weightedroi < ${weightedroi}
 }
 
 utils_SGE_TASK_ID_SUBJ(){
